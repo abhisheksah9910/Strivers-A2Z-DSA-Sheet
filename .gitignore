@@ -2,3 +2,15 @@ build/
 *.exe
 *.o
 .vscode/
+
+# Ignore everything by default
+*
+!*/
+
+# Allow required file types
+!*.cpp
+!*.h
+!*.md
+
+# Allow gitignore itself
+!.gitignore
